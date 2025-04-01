@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.5;
+    background-color: #DDDDDD;
+}
+
+
+.menu{
+    width: 100%;
+    background: #171751;
+    overflow: auto;
+}
+
+.welcome {
+    color: white;
+    float: left;
+    margin: 10px 50px ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+}
+
+.log-buttom{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+
+input {
+    font-size: 16px;
+    padding: 7px;
+    margin: 0 0 5px 0;
+    border: none;
+    font-family: sans-serif;
+    
+}
+
+button{
+    float: right;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    border: none;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+#showcase{
+    background-image: url("1.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 110vh;
+    width: auto;
+}
+
+#showcase .head{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#showcase .first {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+#showcase .par{
+    font-size: 15px;
+    color: #C9C9C9;
+}
+
+#showcase .showcase-content{
+    /*display: flex;*/
+    margin-top: 50px;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0,0,0,.1 );
+}
+.footer {
+    background: #383838;
+    color: white;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+

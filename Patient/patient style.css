@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Tahoma, Arial;
+    background-color: #F7F7F7;
+}
+
+.main{
+    background: #E5E5E5;
+    color:#000000;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+.creat{
+    width: 80%;
+    float: right;
+    margin-right: 50px;
+}
+
+.who{
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid;
+    font-size: 20px;
+    color: #269B00;
+}
+.aside {
+    width: 20%;
+    float: left;
+}
+
+.aside_buttons{
+    width: 16%;
+    border: 4px solid ;
+    border-radius: 10px;
+    height: 90vh;
+    margin-top: 5px;
+    margin-left: 4px;
+    position: fixed;
+    background-color: #EFEFEF;
+}
+
+aside h2{
+    margin: 3px;
+    background-color: white;
+}
+
+aside input{
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.choise_update{
+    text-align: center;
+    margin: 15px;
+}
+
+.choise_update h3{
+    color: #00F;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.choise_update input{
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    margin: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.head{
+    background: #3F72FF;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    border-radius: 0 15px;
+}
+
+form {
+    padding: 10px;
+    margin: 15px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    font-family:Tahoma;
+    font-size: 20px;
+}
+
+fieldset{
+    padding: 10px;
+    
+}
+
+.creat .leg {
+    font-weight: bold;    
+    color: #494949;
+}
+
+span{
+    color: red;
+}
+
+#add_patient {
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    background:orange;
+    padding: 10px 20px;
+    margin:auto;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+}
+
+.image{
+    width:80px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+label {
+    margin-left:20px ;
+}
+
+input{
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}

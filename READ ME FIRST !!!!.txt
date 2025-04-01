@@ -1,0 +1,15 @@
+                         : : : : : LOGIN DETAILS : : : : : 
+
+
+Login Details for admin : admin
+              Password : admin
+
+
+Login Details for Patient: test
+                Password : test
+
+DON'T FORGET TO CREATE A DATABASE NAMING "hospital.sql" AND IMPORT THE SQL FILE AND RUN.
+WITHOUT THE DATABASE THE PROJECT WON'T RUN.
+
+
+

@@ -1,0 +1,62 @@
+
+/*-----content-grids-----*/
+.content-grids{
+	position: absolute;
+        top: 400px;
+	left:270px;
+	background: #EFEFEF;
+	padding: 20px;
+	width: 1000px;
+	border-radius: 50px 20px;
+}
+
+.section-group{
+	margin: 40px;
+}
+/*  GRID OF THREE   ============================================================================= */
+
+.listview1 {
+	float:right;
+	margin-left: 9px;
+	background-color: #D3D3D3;
+	border-radius: 15px;
+}
+.listview3 {
+	float:left;
+	background-color: #D3D3D3;
+	border-radius: 15px;
+}
+.listimg{
+	display: block;
+	float:left;
+}
+.text{
+	display: block;
+	float:left;
+	margin: 0% 0 0% 3.6%;
+}
+.listimg_1_of_2{
+	width: 32.2%;
+}
+.list_1_of_2 {
+	width: 64.2%;
+	margin-top: 5px;
+}
+
+.list_1_of_2  h3{
+	color:#3391E7;
+	margin-bottom:0.2em;
+	margin-top:0;
+	font-size: 2em;
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight : normal;
+	letter-spacing: -1px;
+}
+.list_1_of_2  p{
+	font-size:0.8125em;	
+	color: #3391E7;
+	line-height: 1.5em;
+	font-family: Arial, "Helvetica Neue", "Helvetica", Tahoma, Verdana, sans-serif;
+	padding:0; 	
+}
+
